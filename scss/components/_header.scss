@@ -1,0 +1,45 @@
+@use "../mixins" as *;
+@use "variables" as *;
+
+.header {
+    background: $brandColor;
+    padding-top: 30px;
+    padding-bottom: 10px;;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__nav-list {
+        list-style: none;
+        gap: 56px;
+        display: flex;
+        padding: 0;
+        margin: 0;
+
+        li {
+            display: inline-block;
+
+            a {
+                color: #000;
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+
+        &__dropdown-icon {
+            margin-left: 15px;
+        }
+    }
+
+    &__right-side {
+        display: flex;
+        align-items: center;
+    }
+    &__left-side {
+        display: flex;
+        align-items: center;
+    }
+}
+

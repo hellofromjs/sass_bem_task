@@ -1,0 +1,9 @@
+@mixin btn-rounded()
+{
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 20px;
+    display: inline-block;
+}

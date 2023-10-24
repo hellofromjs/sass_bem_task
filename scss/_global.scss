@@ -1,0 +1,63 @@
+@use "../mixins" as *;
+@use "variables" as *;
+
+body {
+    // font-family: 'Jim Nightshade', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.my-container {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo {
+    width: 38px;
+    height: 38px;
+}
+
+.logo-text {
+    color: #000;
+    font-family: Jim Nightshade;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ml50 {
+    margin-left: 50px;
+}
+
+.pt25 {
+    padding-top: 25px;
+}
+.mb125 {
+    margin-bottom: 125px;
+}
+.mt70 {
+    margin-top: 70px;
+}
+
+.btn-round {
+    div {
+        @include btn-rounded()
+    }
+    &--dark div {
+        background-color: #682C0E;
+    }
+
+    &--light div {
+        background-color: #C24914;
+    }
+
+    &--orange div {
+        background-color: #FC8621;
+        padding: 12px 52px;;
+    }
+}
+
+.bg-orange {
+    background-color: $brandColor;
+}

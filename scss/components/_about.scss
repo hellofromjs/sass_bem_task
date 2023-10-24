@@ -1,0 +1,58 @@
+.about {
+    &__container {
+        display:flex;
+        flex-flow: column;
+        gap: 235px;
+    }
+    &__title {
+        font-size: 48px;
+        font-weight: 700;
+        max-width: 428px;
+    }
+    &__paragraph {
+        color: rgba(0, 0, 0, 0.46);
+        font-size: 20px;
+        font-weight: 400;
+    }
+    &__left-side {
+        display: flex;
+        flex-flow: column;
+        align-self: center;
+        gap: 34px;
+    }
+    &__right-side {
+        display: flex;
+        flex-flow: column;
+        align-self: center;
+    }
+    &__article2 {
+
+        &__img {
+            max-width: 480px;
+        }
+        &__title {
+            max-width: 407px;
+
+            font-size: 48px;
+            font-weight: 600;
+        }
+        &__paragraph  {
+            font-size: 24px;
+            font-weight: 400;
+
+            li {
+                line-height: 3rem;
+            }
+        }
+    }
+    &__article3 {
+        &__title {
+            font-size: 48px;
+            font-weight: 600;
+        }
+        &__img {
+            max-width: 440px;
+            margin-left: auto;
+        }
+    }
+}

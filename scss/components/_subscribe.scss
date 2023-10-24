@@ -1,0 +1,41 @@
+
+.subscribe {
+    margin-top: 110px;
+    margin-bottom: 205px;
+
+    &__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+        padding: 38px 45px;
+
+        &__button {
+            background-color: #C24914;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &__text {
+                color: white;
+                font-size: 20px;
+                font-weight: 700;
+                text-align: center;
+            }
+        }
+    }
+
+    input {
+        height: 63px;
+        border: none;
+
+        &::placeholder {
+            color: rgba(0, 0, 0, 0.50);
+            font-size: 20px;
+            font-weight: 600;
+            text-align: center;
+            
+        }
+    }
+
+    
+}
