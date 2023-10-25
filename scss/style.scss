@@ -1,4 +1,4 @@
-@import "../bootstrap/scss/bootstrap.scss";
+
 @import "variables";
 @import "mixins";
 @import "global";
@@ -8,19 +8,12 @@
 @import "components/join";
 @import "components/footer";
 
-// @import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/mixins";
 
-// $container-max-width: (
-//     sm: 300px,
-//     md: 300px,
-//     lg: 300px,
-//     xl: 300px,
-//     xxl: 300px,
-// );
+@import "overrides";
 
-// @import "../bootstrap/scss/variables";
-// @import "../bootstrap/scss/mixins";
-
-// // ka norima keisti
-// @import "../bootstrap/scss/containers";
-
+// ka norima keisti
+@import "../bootstrap/scss/containers";
+@import "../bootstrap/scss/bootstrap.scss";

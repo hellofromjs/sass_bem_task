@@ -1,0 +1,9 @@
+// my custom map
+$custom-container-max-widths: (
+    xl: 1080px
+);
+
+// merge and override bootstraps map
+// $container-max-widths: map-merge($container-max-widths, $custom-container-max-widths);
+
+$container-max-widths: $custom-container-max-widths;

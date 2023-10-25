@@ -1,8 +1,8 @@
 @use "../mixins" as *;
-@use "variables" as *;
+@use "../variables" as v;
 
 .header {
-    background: $brandColor;
+    background: v.$brandColor;
     padding-top: 30px;
     padding-bottom: 10px;;
 
